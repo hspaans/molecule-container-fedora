@@ -37,8 +37,8 @@ The container is based on [LTS](https://en.wikipedia.org/wiki/Long-term_support)
 
 | Platform | Version |                                    Image                                     |
 | :------: | :-----: | :--------------------------------------------------------------------------: |
-|  Fedora  |   32    |     [hspaans/molecule-container-fedora:32][molecule-container-fedora:32]      |
-|  Fedora  |   33    |     [hspaans/molecule-container-fedora:33][molecule-container-fedora:33]      |
+|  Fedora  |   32    |     [hspaans/molecule-container-fedora:32][molecule-container-fedora:32]     |
+|  Fedora  |   33    |     [hspaans/molecule-container-fedora:33][molecule-container-fedora:33]     |
 |  Fedora  |   34    | [hspaans/molecule-container-fedora:latest][molecule-container-fedora:latest] |
 
 [ansible]: https://github.com/ansible/ansible
