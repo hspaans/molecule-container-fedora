@@ -42,7 +42,7 @@ The container is based on [LTS](https://en.wikipedia.org/wiki/Long-term_support)
 |  Fedora  |   34    | [hspaans/molecule-container-fedora:latest][molecule-container-fedora:latest] |
 
 [ansible]: https://github.com/ansible/ansible
-[fedora]: https://centos.org
+[fedora]: https://fedoraproject.org
 [molecule]: https://github.com/ansible-community/molecule
 [molecule-container-fedora:latest]: ghcr.io/hspaans/molecule-container-fedora:latest
 [molecule-container-fedora:32]: ghcr.io/hspaans/molecule-container-fedora:32
