@@ -4,18 +4,46 @@ updates:
   - package-ecosystem: docker
     directory: /
     schedule:
-      interval: monthly
+      interval: weekly
     target-branch: master
     open-pull-requests-limit: 10
 
   - package-ecosystem: docker
     directory: /
     schedule:
-      interval: monthly
+      interval: weekly
     target-branch: v32
     open-pull-requests-limit: 10
 
   - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
+    target-branch: v33
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
+    target-branch: v34
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    target-branch: master
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    target-branch: v32
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: monthly
@@ -26,19 +54,5 @@ updates:
     directory: /
     schedule:
       interval: monthly
-    target-branch: master
-    open-pull-requests-limit: 10
-
-  - package-ecosystem: github-actions
-    directory: /
-    schedule:
-      interval: monthly
-    target-branch: v32
-    open-pull-requests-limit: 10
-
-  - package-ecosystem: github-actions
-    directory: /
-    schedule:
-      interval: monthly
-    target-branch: v33
+    target-branch: v34
     open-pull-requests-limit: 10
