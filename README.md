@@ -4,7 +4,7 @@ An [Fedora][fedora] based container image for testing [Ansible][ansible] Roles w
 
 ## Example Molecule scenario
 
-The example `molecule.yml` below is a scenario to run test on Fedora 33.
+The example `molecule.yml` below is a scenario to run test on Fedora 34.
 
 ```yml
 ---
@@ -19,7 +19,7 @@ lint: |
   flake8
 platforms:
   - name: instance
-    image: "ghcr.io/hspaans/molecule-container-fedora:33"
+    image: "ghcr.io/hspaans/molecule-container-fedora:34"
     command: ""
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
@@ -39,7 +39,7 @@ The container is based on [LTS](https://en.wikipedia.org/wiki/Long-term_support)
 | :------: | :-----: | :--------------------------------------------------------------------------: |
 |  Fedora  |   32    |     [hspaans/molecule-container-fedora:32][molecule-container-fedora:32]     |
 |  Fedora  |   33    |     [hspaans/molecule-container-fedora:33][molecule-container-fedora:33]     |
-|  Fedora  |   34    |     [hspaans/molecule-container-fedora:33][molecule-container-fedora:34]     |
+|  Fedora  |   34    |     [hspaans/molecule-container-fedora:34][molecule-container-fedora:34]     |
 |  Fedora  |   35    | [hspaans/molecule-container-fedora:latest][molecule-container-fedora:latest] |
 
 [ansible]: https://github.com/ansible/ansible
